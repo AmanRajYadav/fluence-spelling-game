@@ -1,11 +1,11 @@
-# 🚀 Spelling Master - GitHub Deployment Guide
+# 🚀 Fluence Spelling Master - GitHub Deployment Guide
 
 ## Quick Deployment Steps
 
 ### 1. Create GitHub Repository
 1. Go to [github.com/new](https://github.com/new)
-2. Repository name: `spelling-game`
-3. Description: `React Spelling Master - Improve English spelling with AI-powered words`
+2. Repository name: `fluence-spelling-game`
+3. Description: `React Fluence Spelling Master - Improve English spelling with AI-powered words`
 4. Make it **Public** (required for free GitHub Pages)
 5. **Don't initialize** with README (we already have files)
 6. Click **"Create repository"**
@@ -13,7 +13,7 @@
 ### 2. Connect and Push to GitHub
 ```bash
 # Connect to your GitHub repository
-git remote add origin https://github.com/amanry/spelling-game.git
+git remote add origin https://github.com/amanry/fluence-spelling-game.git
 
 # Push your code to GitHub
 git push -u origin main
@@ -35,7 +35,7 @@ npm run deploy
 
 ## 🌐 Your Live URL
 After deployment, your game will be available at:
-**https://amanry.github.io/spelling-game**
+**https://amanry.github.io/fluence-spelling-game**
 
 ## 🔄 Automatic Updates
 To update your deployed game after making changes:
@@ -62,7 +62,7 @@ npm run deploy
 ### If deployment fails:
 1. Make sure you've created the GitHub repository
 2. Check that you've pushed to GitHub first: `git push origin main`
-3. Verify your repository name matches: `spelling-game`
+3. Verify your repository name matches: `fluence-spelling-game`
 4. Make sure repository is public
 
 ### If GitHub Pages doesn't work:

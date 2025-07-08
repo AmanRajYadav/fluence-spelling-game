@@ -1449,8 +1449,8 @@ const SpellingGame = () => {
         <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full">
           <div className="text-center mb-8">
             <BookOpen className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-            <h1 className="text-3xl font-bold text-gray-800 mb-2">Spelling Master</h1>
-            <p className="text-gray-600">Improve your English spelling with curated words</p>
+            <h1 className="text-3xl font-bold text-gray-800 mb-2">Fluence Spelling Master</h1>
+            <p className="text-gray-600">Improve your English spelling with AI-powered words</p>
           </div>
           
           <div className="space-y-6">
@@ -1535,7 +1535,7 @@ const SpellingGame = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-4">
               <BookOpen className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-gray-800">Spelling Master</h1>
+              <h1 className="text-2xl font-bold text-gray-800">Fluence Spelling Master</h1>
             </div>
             <div className="flex items-center space-x-4">
               <button

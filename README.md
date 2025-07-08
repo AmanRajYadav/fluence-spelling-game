@@ -1,4 +1,4 @@
-# Spelling Master Game
+# Fluence Spelling Master Game
 
 A React-based spelling game that helps improve English spelling skills with curated words across different difficulty levels and categories.
 

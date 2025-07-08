@@ -1,4 +1,4 @@
-name: Deploy Spelling Game to GitHub Pages
+name: Deploy Fluence Spelling Game to GitHub Pages
 
 on:
   push:
