@@ -2,7 +2,20 @@
   "short_name": "Fluence Spelling",
   "name": "Fluence Spelling Master Game",
   "description": "Improve your English spelling with AI-powered words",
-  "icons": [],
+  "icons": [
+    {
+      "src": "f.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "f.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
