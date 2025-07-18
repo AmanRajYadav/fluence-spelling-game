@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fluence-spelling-game/static/css/main.bfeda3ec.css",
+    "main.js": "/fluence-spelling-game/static/js/main.2b9005a9.js",
+    "index.html": "/fluence-spelling-game/index.html",
+    "main.bfeda3ec.css.map": "/fluence-spelling-game/static/css/main.bfeda3ec.css.map",
+    "main.2b9005a9.js.map": "/fluence-spelling-game/static/js/main.2b9005a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfeda3ec.css",
+    "static/js/main.2b9005a9.js"
+  ]
+}
