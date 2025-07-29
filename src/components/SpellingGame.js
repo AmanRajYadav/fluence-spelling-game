@@ -1328,11 +1328,11 @@ const SpellingGame = () => {
         ? wordDatabase[difficulty]['generalVocabulary']
         : fallbackWords[difficulty] || fallbackWords['easy'];
       
-      // Filter out words that have been used recently
-      const recentWords = wordHistory.slice(-5).map(entry => entry.word);
-      const availableWords = categoryWords.filter(wordData => !recentWords.includes(wordData.word));
+      // Filter out words that have been used in the current gameplay session
+      const usedWords = wordHistory.map(entry => entry.word);
+      const availableWords = categoryWords.filter(wordData => !usedWords.includes(wordData.word));
       
-      // If all words have been used recently, reset the filter
+      // If all words have been used in this session, allow repetition
       const wordsToChooseFrom = availableWords.length > 0 ? availableWords : categoryWords;
       
       // Select a random word
